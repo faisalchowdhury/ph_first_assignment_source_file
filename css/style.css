@@ -38,6 +38,7 @@ body {
 .section_title {
     font-size: 40px;
     color: #0E0E0E;
+    padding: 20px 0 50px 0;
     
 }
 /* Header style */
@@ -89,4 +90,27 @@ header {
     padding-bottom: 20px;
 }
 
+/* Pillars Area */
+.pillars_area {
+    margin-bottom: 100px;
+}
+.pillars_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pillars_wrapper .pillar {
+    padding:30px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+} 
+
+.pillars_wrapper .pillar:hover {
+   box-shadow: 0px 6px 50px 0 #ddd;
+}
+
+.pillars_wrapper img,h3,p {
+    padding-bottom: 10px;
+}
 
