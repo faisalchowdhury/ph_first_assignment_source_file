@@ -372,6 +372,9 @@ table thead tr {
     transition: .5s;
     
 } 
+.subscribe_wrapper form input[type="submit"]:hover {
+    background: #000;
+}
 
 /* Footer Area */
 
