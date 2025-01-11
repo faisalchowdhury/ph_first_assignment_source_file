@@ -235,3 +235,33 @@ table thead tr {
     font-size: 18px;
     outline: none;
 }
+
+/* Recent News Area */
+
+.news_wrapper .news1 ,.news2 ,.news3  {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px #ddd;
+    margin: 50px 0;
+}
+
+.news_wrapper h3 {
+    font-size: 30px;
+    color: #0E0E0E;
+}
+.news_content > p {
+    line-height: 25px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.news_wrapper .news_image img{
+    border-radius: 20px;
+} 
+.news_wrapper .news1,.news2,.news3 {
+    display: flex;
+    gap: 30px;
+}
+
+
+
