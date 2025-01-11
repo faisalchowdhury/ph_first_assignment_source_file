@@ -125,6 +125,10 @@ header {
     gap: 20px;
 }
 
+.vision_area > p {
+    font-size: 18px;
+    line-height: 30px;
+}
 .vision_items .vision {
     padding: 40px;
     border-radius: 10px;
@@ -240,6 +244,10 @@ table thead tr {
 
 /* Recent News Area */
 
+.recent_news > p {
+   font-size: 18px;
+   line-height: 30px;
+}
 .news_wrapper .news1 ,.news2 ,.news3  {
     padding: 30px;
     background: white;
@@ -267,7 +275,10 @@ table thead tr {
 }
 
 /* Donate area  */
-
+.donate_intro > p {
+    font-size: 18px;
+    line-height: 30px;
+}
 .donate_wrapper {
     width: 1100px;
     margin: 50px auto;
