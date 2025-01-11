@@ -314,3 +314,49 @@ table thead tr {
     font-size: 18px;
     
 }
+
+/* subscribe area */
+.subscribe_area {
+    padding: 100px 0px;
+    background: rgba(198, 228, 214, 1) ;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.subscribe_wrapper {
+    width:750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe_wrapper h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.subscribe_wrapper p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subscribe_wrapper form  {
+    display: flex;
+    margin: 30px 0px;
+}
+.subscribe_wrapper form input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+.subscribe_wrapper form input[type="submit"] {
+    padding: 20px 30px;
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 18px;
+    transition: .5s;
+    
+} 
+
