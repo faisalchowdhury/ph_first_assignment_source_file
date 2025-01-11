@@ -197,3 +197,41 @@ header {
     background-repeat: no-repeat;
     padding: 20px 0 0 0;
 } 
+
+/* Opinion Section */
+
+.opinion_area {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 50px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+table th {
+    font-size: 20px;
+    border: none;
+}
+table td {
+    font-size: 18px ;
+}
+table thead tr {
+    background: rgba(198, 228, 214, 1);
+}
+
+.opinion_area select {
+    background: rgba(198, 228, 214, 1);
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
